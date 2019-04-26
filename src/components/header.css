@@ -1,9 +1,47 @@
 .header {
     display: flex;
-    border: 1px solid pink;
     margin: 0;
     padding: 0;
     background: url('./back.svg') no-repeat;
     height: 95vh;
     background-position: center;
+}
+
+.nav-bar {
+    display: flex;
+    height: 60px;
+}
+
+.sec-1 {
+    display: flex;
+    flex: 1;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.sec-2 {
+    display: flex;
+    flex: 1;
+    padding-top: 20px;
+    justify-content: flex-end;
+    padding-right: 0px;
+}
+
+.sec-2 a {
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.sec-1 a {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+    .sec-2 {
+        padding-right: 50px;
+    }
+
+    .sec-1 {
+        padding-left: 50px;
+    }
 }
