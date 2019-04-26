@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    border: 1px solid pink;
+    margin: 0;
+    padding: 0;
+    background: url('./back.svg') no-repeat;
+    height: 95vh;
+    background-position: center;
+}
